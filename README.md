@@ -10,7 +10,7 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/c1xx/bitcloud/maste
 ```
 \
 **BitCloud bootstrap:**\
-Every 3 hours will be our BitCloud bootstrap refreshed. To get latest bootstrap/blockchin files, you need to login as root.
+Every 3 hours will be our BitCloud bootstrap refreshed. To get latest bootstrap/blockchain files, you need to login as root.
 Used path in this bootstrap script is **/root/.bitcloud**
 
 ```
@@ -18,7 +18,7 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/c1xx/bitcloud/maste
 ```
 \
 **For updating an existing masternode:**\
-Use this script only if you used my masternode setup script before, otherwise there will be problems.
+Use this script only if you used my [**masternode setup script**](https://github.com/c1xx/bitcloud/blob/master/masternode-setup.sh) before, otherwise there will be problems.
 
 ```
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/c1xx/bitcloud/master/masternode-update.sh)"
